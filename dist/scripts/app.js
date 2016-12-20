@@ -14,7 +14,7 @@
 
      		})
      		.state('collection', {
-     			url: '/',
+     			url: '/collection',
                 controller: 'CollectionCtrl as collection',
      			templateUrl: '/templates/collection.html'
      		})
