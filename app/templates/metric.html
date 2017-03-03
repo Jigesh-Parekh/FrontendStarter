@@ -1,0 +1,9 @@
+<section class="metrics" ng-controller="MetricCtrl as met"> 
+	<div class="container">	
+		{{data}}
+	</div>
+
+	<div ng-repeat="(key,val) in data">
+		{{key}}: {{val}}
+	</div>
+</section>

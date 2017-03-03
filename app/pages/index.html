@@ -12,6 +12,7 @@
     <link rel="stylesheet" type="text/css" href="/styles/collection.css">
     <link rel="stylesheet" type="text/css" href="/styles/album.css">
     <link rel="stylesheet" type="text/css" href="/styles/player_bar.css">
+    <link rel="stylesheet" type="text/css" href="/styles/metric.css">
 </head>
 <body>
 	<nav class="navbar">
@@ -20,6 +21,7 @@
         </a>
 	    <div class="links-container">
 	    	<a ui-sref="collection" class="navbar-link">collection</a>
+            <a ui-sref="metric" class="navbar-link">metric</a>
 	    </div>
 	</nav>
 
@@ -34,9 +36,12 @@
     <script src="/scripts/controllers/CollectionCtrl.js"></script>
     <script src="/scripts/controllers/AlbumCtrl.js"></script>
     <script src="/scripts/controllers/PlayerBarCtrl.js"></script>
+    <script src="/scripts/controllers/MetricCtrl.js"></script>
     <script src="/scripts/services/Fixtures.js"></script>
     <script src="/scripts/services/SongPlayer.js"></script>
+    <script src="/scripts/services/Metrics.js"></script>
     <script src="/scripts/directives/seekBar.js"></script>
+    <script src="/scripts/directives/myCounter.js"></script>
     <script src="/scripts/filters/timecode.js"></script>
 
 </body>
