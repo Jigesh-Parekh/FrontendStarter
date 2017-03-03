@@ -22,7 +22,12 @@
              	url: '/album',
                 controller: 'AlbumCtrl as album',
              	templateUrl: '/templates/album.html'
-         	});
+         	})
+            .state('metric', {
+                url: '/metric',
+                controller: 'MetricCtrl as metric',
+                templateUrl: '/templates/metric.html'
+            });
      }
  
      angular
