@@ -31,6 +31,18 @@
                     counts[songName[i]] = 1 + (counts[songName[i]] || 0);
                 }
 
+            
+
+                //var result = _.map(counts, function(value, label) {
+                //  return { label : label, value : value };
+                //});
+
+                //console.log(result);
+
+                //var dataResult =  {key: "songs", value: result};
+
+                //console.log(dataResult);
+
                 console.log(counts);
                 console.log(songName);
 
