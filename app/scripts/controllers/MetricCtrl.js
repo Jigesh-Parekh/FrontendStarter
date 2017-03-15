@@ -35,9 +35,10 @@
                   return { label : label, value : value };
              });
 
-        	var finalformat = {key: "songs", value: result};
+        	var finalformat = [{key: "songs", values: result}];
 
         	return finalformat;
+
         };
 
         $scope.data = myspecialfunction(Metrics.countSongs());
@@ -84,6 +85,8 @@
                 ]
             }
         ];
+
+        $scope.data2 = [{"key":"songs","value":[{"label":"Green","value":3},{"label":"Blue","value":2},{"label":"Red","value":3},{"label":"Pink","value":2},{"label":"Magenta","value":1}]}]
     
 
 		console.log($scope.data);
